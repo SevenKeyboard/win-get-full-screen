@@ -33,6 +33,14 @@ Example Usage:
     tooltip % winGetFullScreen("A")
 */
 
+class VersionManager_winGetFullScreen
+{
+    static _ := VersionManager_winGetFullScreen._init()
+    _init()    {
+        global
+        WINGETFULLSCREEN_VERSION := "1.0.0"
+    }
+}
 winGetFullScreen(winTitle:="", winText:="", excludeTitle:="", excludeText:="")    {
     static SW_SHOWMAXIMIZED:=3, GWL_STYLE:=-16, WS_CAPTION:=0x00C00000, WS_SIZEBOX:=0x00040000
     if (winTitle!=""
