@@ -1,4 +1,5 @@
-﻿;==============================================================
+﻿#Requires AutoHotkey v1.1.31+
+;==============================================================
 ; winGetFullScreen — Detects whether a window is fullscreen, borderless-maximized, or not fullscreen
 ;
 ; GitHub: https://github.com/SevenKeyboard/win-get-full-screen
